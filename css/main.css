@@ -42,3 +42,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+div.one-item 
+    {
+  float: left;
+  width: 20%;
+  border: 0.25em solid #fff;
+}
