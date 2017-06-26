@@ -1,1 +1,46 @@
 /*! Place your custom styles here */
+
+div.one-item {
+     float: left;
+  width: 20%;
+  border: 0.25em solid #fff;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height: 13em;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+  
+.cover {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.cover:hover {
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 0.4;
+filter: Alpha(opacity=40); /* IE8 and earlier */
+}
+
+ .meta h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: block;
+  position: absolute;
+  top: 65%;
+  left: 10px;
+  font-size: 1em;
+  line-height: 1;
+  overflow: hidden;
+  width: 95%;
+  color: #fff;
+  z-index: 2;
+}
