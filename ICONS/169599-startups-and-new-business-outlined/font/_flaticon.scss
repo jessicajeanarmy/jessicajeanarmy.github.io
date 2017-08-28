@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 23/06/2016 13:20
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-basket:before { content: "\f100"; }
+.flaticon-binoculars:before { content: "\f101"; }
+.flaticon-brain:before { content: "\f102"; }
+.flaticon-bulb:before { content: "\f103"; }
+.flaticon-calculator:before { content: "\f104"; }
+.flaticon-calendar:before { content: "\f105"; }
+.flaticon-clock:before { content: "\f106"; }
+.flaticon-coffee:before { content: "\f107"; }
+.flaticon-coffee-cup:before { content: "\f108"; }
+.flaticon-cogwheel:before { content: "\f109"; }
+.flaticon-coins:before { content: "\f10a"; }
+.flaticon-command:before { content: "\f10b"; }
+.flaticon-compass:before { content: "\f10c"; }
+.flaticon-diagram:before { content: "\f10d"; }
+.flaticon-dialogue:before { content: "\f10e"; }
+.flaticon-documentation:before { content: "\f10f"; }
+.flaticon-dollar:before { content: "\f110"; }
+.flaticon-dollar-1:before { content: "\f111"; }
+.flaticon-employee:before { content: "\f112"; }
+.flaticon-employees:before { content: "\f113"; }
+.flaticon-flag:before { content: "\f114"; }
+.flaticon-flask:before { content: "\f115"; }
+.flaticon-glasses:before { content: "\f116"; }
+.flaticon-horse:before { content: "\f117"; }
+.flaticon-laptop:before { content: "\f118"; }
+.flaticon-lifebuoy:before { content: "\f119"; }
+.flaticon-line-graph:before { content: "\f11a"; }
+.flaticon-loupe:before { content: "\f11b"; }
+.flaticon-medal:before { content: "\f11c"; }
+.flaticon-megaphone:before { content: "\f11d"; }
+.flaticon-microscope:before { content: "\f11e"; }
+.flaticon-mortarboard:before { content: "\f11f"; }
+.flaticon-mountain:before { content: "\f120"; }
+.flaticon-paper-plane:before { content: "\f121"; }
+.flaticon-piggy-bank:before { content: "\f122"; }
+.flaticon-pointer:before { content: "\f123"; }
+.flaticon-rocket:before { content: "\f124"; }
+.flaticon-smartphone:before { content: "\f125"; }
+.flaticon-smartphone-1:before { content: "\f126"; }
+.flaticon-speedometer:before { content: "\f127"; }
+.flaticon-statistics:before { content: "\f128"; }
+.flaticon-store:before { content: "\f129"; }
+.flaticon-suitcase:before { content: "\f12a"; }
+.flaticon-target:before { content: "\f12b"; }
+.flaticon-tasks:before { content: "\f12c"; }
+.flaticon-telescope:before { content: "\f12d"; }
+.flaticon-tie:before { content: "\f12e"; }
+.flaticon-trophy:before { content: "\f12f"; }
+.flaticon-ufo:before { content: "\f130"; }
+.flaticon-website:before { content: "\f131"; }
+    
+    $font-Flaticon-basket: "\f100";
+    $font-Flaticon-binoculars: "\f101";
+    $font-Flaticon-brain: "\f102";
+    $font-Flaticon-bulb: "\f103";
+    $font-Flaticon-calculator: "\f104";
+    $font-Flaticon-calendar: "\f105";
+    $font-Flaticon-clock: "\f106";
+    $font-Flaticon-coffee: "\f107";
+    $font-Flaticon-coffee-cup: "\f108";
+    $font-Flaticon-cogwheel: "\f109";
+    $font-Flaticon-coins: "\f10a";
+    $font-Flaticon-command: "\f10b";
+    $font-Flaticon-compass: "\f10c";
+    $font-Flaticon-diagram: "\f10d";
+    $font-Flaticon-dialogue: "\f10e";
+    $font-Flaticon-documentation: "\f10f";
+    $font-Flaticon-dollar: "\f110";
+    $font-Flaticon-dollar-1: "\f111";
+    $font-Flaticon-employee: "\f112";
+    $font-Flaticon-employees: "\f113";
+    $font-Flaticon-flag: "\f114";
+    $font-Flaticon-flask: "\f115";
+    $font-Flaticon-glasses: "\f116";
+    $font-Flaticon-horse: "\f117";
+    $font-Flaticon-laptop: "\f118";
+    $font-Flaticon-lifebuoy: "\f119";
+    $font-Flaticon-line-graph: "\f11a";
+    $font-Flaticon-loupe: "\f11b";
+    $font-Flaticon-medal: "\f11c";
+    $font-Flaticon-megaphone: "\f11d";
+    $font-Flaticon-microscope: "\f11e";
+    $font-Flaticon-mortarboard: "\f11f";
+    $font-Flaticon-mountain: "\f120";
+    $font-Flaticon-paper-plane: "\f121";
+    $font-Flaticon-piggy-bank: "\f122";
+    $font-Flaticon-pointer: "\f123";
+    $font-Flaticon-rocket: "\f124";
+    $font-Flaticon-smartphone: "\f125";
+    $font-Flaticon-smartphone-1: "\f126";
+    $font-Flaticon-speedometer: "\f127";
+    $font-Flaticon-statistics: "\f128";
+    $font-Flaticon-store: "\f129";
+    $font-Flaticon-suitcase: "\f12a";
+    $font-Flaticon-target: "\f12b";
+    $font-Flaticon-tasks: "\f12c";
+    $font-Flaticon-telescope: "\f12d";
+    $font-Flaticon-tie: "\f12e";
+    $font-Flaticon-trophy: "\f12f";
+    $font-Flaticon-ufo: "\f130";
+    $font-Flaticon-website: "\f131";
